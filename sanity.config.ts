@@ -12,8 +12,8 @@ const config = defineConfig({
     plugins: [deskTool()],
     schema: {
         types : schemas
-    }
-
+    },
+    useCdn: true
 })
 
 export default config
